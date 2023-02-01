@@ -1,0 +1,22 @@
+clingo version 5.3.0
+Reading from ╠ръёшьры№эр  ъышър.lp
+Solving...
+Answer: 1
+in(3) in(4)
+Optimization: -2
+Answer: 2
+in(6) in(3) in(4)
+Optimization: -3
+Answer: 3
+in(5) in(6) in(3) in(4)
+Optimization: -4
+OPTIMUM FOUND
+
+Models       : 3
+  Optimum    : yes
+Optimization : -4
+Calls        : 1
+Time         : 0.081s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.016s
+
+C:\Users\nasty\IdeaProjects\ASP_ExampleLibrary\src\data\Задача о максимальной клике>

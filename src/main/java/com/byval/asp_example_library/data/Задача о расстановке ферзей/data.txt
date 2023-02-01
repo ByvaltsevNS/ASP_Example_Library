@@ -1,0 +1,13 @@
+clingo version 5.3.0
+Reading from ...àíîâêà ôåðçåé_êëàññè÷åñêèé âàðèàíò .lp
+Solving...
+Answer: 1
+queen(1,4) queen(4,2) queen(6,1) queen(2,6) queen(7,3) queen(3,8) queen(5,7) queen(8,5)
+SATISFIABLE
+
+Models       : 1+
+Calls        : 1
+Time         : 0.121s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.000s
+
+C:\Users\nasty\IdeaProjects\ASP_ExampleLibrary\src\data\‡ ¤ ç  ® à ááâ ­®¢ª¥ ä¥à§¥©>

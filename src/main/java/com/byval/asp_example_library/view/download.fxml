@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" prefHeight="543.0" prefWidth="774.0" vgap="10" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.byval.asp_example_library.control.DownloadController">
+    <columnConstraints>
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+    </rowConstraints>
+    <children>
+        <AnchorPane prefHeight="261.0" prefWidth="488.0">
+            <children>
+                <AnchorPane layoutX="-15.0" layoutY="41.0" prefHeight="502.0" prefWidth="846.0" style="-fx-background-color: #a9bcc6;">
+                    <children>
+                        <ComboBox fx:id="namePath" layoutX="78.0" layoutY="209.0" prefHeight="27.0" prefWidth="171.0" style="-fx-background-color: #94ae3f; -fx-background-radius: 5; -fx-border-color: #243754; -fx-border-radius: 5;" />
+                  <RadioButton fx:id="namePathLoad" layoutX="88.0" layoutY="176.0" mnemonicParsing="false" selected="true" text="существующий раздел">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="download" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="newPathLoad" layoutX="88.0" layoutY="266.0" mnemonicParsing="false" text="новый раздел" toggleGroup="$download" />
+                  <TextField fx:id="newNamePath" disable="true" layoutX="79.0" layoutY="320.0" prefHeight="26.0" prefWidth="171.0" promptText="Введите название раздела" />
+                  <Label layoutX="94.0" layoutY="295.0" text="Название нового раздела" />
+                  <Label layoutX="110.0" layoutY="80.0" text="Название примера" />
+                  <TextField fx:id="nameExampleLoad" layoutX="79.0" layoutY="112.0" prefHeight="26.0" prefWidth="171.0" promptText="Введите название примера" />
+                  <Label layoutX="84.0" layoutY="150.0" text="Загрузить текущий пример в:" />
+                  <Button fx:id="Download" layoutX="124.0" layoutY="395.0" mnemonicParsing="false" style="-fx-background-color: #94ae3f; -fx-background-radius: 5; -fx-border-radius: 5; -fx-border-color: #243754;" text="Загрузить" textFill="WHITE" />
+                  <TextArea fx:id="loadTextCode" layoutX="321.0" layoutY="76.0" prefHeight="375.0" prefWidth="502.0" promptText="Введите код примера" style="-fx-background-color: #243754;" />
+                  <Button fx:id="home" layoutX="31.0" layoutY="14.0" mnemonicParsing="false" prefHeight="3.0" prefWidth="30.0" style="-fx-background-color: #f78351; -fx-border-color: #243754; -fx-background-radius: 5; -fx-border-radius: 5;" textFill="#f78351">
+                     <graphic>
+                        <ImageView fitHeight="15.0" fitWidth="15.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../res/home_32.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Label layoutX="526.0" layoutY="40.0" text="Исходный код" underline="true">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                    </children>
+                </AnchorPane>
+            <AnchorPane layoutY="-11.0" prefHeight="58.0" prefWidth="832.0" style="-fx-background-color: #243754;">
+               <children>
+                  <Label layoutX="379.0" layoutY="15.0" text="Загрузчик" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            </children>
+        </AnchorPane>
+    </children>
+</GridPane>

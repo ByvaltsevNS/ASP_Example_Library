@@ -1,0 +1,13 @@
+clingo version 5.3.0
+Reading from ...êðàøèâàíèå íåîðèåíòèðîâàííîãî ãðàôà.lp
+Solving...
+Answer: 1
+colors(1,green) colors(2,blue) colors(5,blue) colors(7,blue) colors(3,red) colors(8,green) colors(4,green) colors(9,green) colors(10,red) colors(6,red)
+SATISFIABLE
+
+Models       : 1+
+Calls        : 1
+Time         : 0.122s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.000s
+
+C:\Users\nasty\IdeaProjects\ASP_ExampleLibrary\src\data\‡ ¤ ç  ® à áªà è¨¢ ­¨¨ £à ä >

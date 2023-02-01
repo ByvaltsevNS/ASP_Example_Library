@@ -1,0 +1,13 @@
+clingo version 5.3.0
+Reading from Õàíîéñêàÿ áàøíÿ.lp
+Solving...
+Answer: 1
+move(4,b,1) move(3,c,2) move(4,c,3) move(2,b,4) move(4,a,5) move(3,b,6) move(4,b,7) move(1,c,8) move(4,c,9) move(3,a,10) move(4,a,11) move(2,c,12) move(4,b,13) move(3,c,14) move(4,c,15)
+SATISFIABLE
+
+Models       : 1+
+Calls        : 1
+Time         : 0.067s (Solving: 0.01s 1st Model: 0.01s Unsat: 0.00s)
+CPU Time     : 0.016s
+
+C:\Users\nasty\IdeaProjects\ASP_ExampleLibrary\src\data\• ­®©áª ï ¡ è­ï>
